@@ -627,8 +627,8 @@ const ModelSchema: Record<string, unknown> = {
                           "categoryId": {
                             "description": "ID of the category.",
                             "x-oapi-codegen-extra-tags": {
-                              "json": "-",
-                              "yaml": "-",
+                              "json": "categoryId",
+                              "yaml": "categoryId",
                               "gorm": "categoryID"
                             },
                             "x-order": 8,
@@ -1767,8 +1767,8 @@ const ModelSchema: Record<string, unknown> = {
           "categoryId": {
             "description": "ID of the category.",
             "x-oapi-codegen-extra-tags": {
-              "json": "-",
-              "yaml": "-",
+              "json": "categoryId",
+              "yaml": "categoryId",
               "gorm": "categoryID"
             },
             "x-order": 8,
@@ -3206,8 +3206,8 @@ const ModelSchema: Record<string, unknown> = {
                 "categoryId": {
                   "description": "ID of the category.",
                   "x-oapi-codegen-extra-tags": {
-                    "json": "-",
-                    "yaml": "-",
+                    "json": "categoryId",
+                    "yaml": "categoryId",
                     "gorm": "categoryID"
                   },
                   "x-order": 8,

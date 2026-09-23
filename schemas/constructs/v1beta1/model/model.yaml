@@ -103,8 +103,8 @@ properties:
     description: ID of the category.
     $ref: ../core/api.yml#/components/schemas/uuid
     x-oapi-codegen-extra-tags:
-      yaml: "-"
-      json: "-"
+      yaml: categoryId
+      json: categoryId
       gorm: categoryID
     x-order: 8
   category:

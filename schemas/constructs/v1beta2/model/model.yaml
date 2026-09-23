@@ -95,8 +95,8 @@ properties:
     description: ID of the category.
     $ref: ../core/api.yml#/components/schemas/Uuid
     x-oapi-codegen-extra-tags:
-      json: "-"
-      yaml: "-"
+      json: categoryId
+      yaml: categoryId
       gorm: categoryID
     x-order: 8
   category:

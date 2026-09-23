@@ -166,7 +166,7 @@ type ModelDefinition struct {
 	Status ModelDefinitionStatus `json:"status" yaml:"status"`
 
 	// CategoryId A Universally Unique Identifier used to uniquely identify entities in Meshery. The UUID core definition is used across different schemas.
-	CategoryId core.Uuid `gorm:"categoryID" json:"-" yaml:"-"`
+	CategoryId core.Uuid `gorm:"categoryID" json:"categoryId" yaml:"categoryId"`
 
 	// Registrant Meshery Connections are managed and unmanaged resources that either through discovery or manual entry are tracked by Meshery. Learn more at https://docs.meshery.io/concepts/logical/connections
 	Registrant connectionv1beta1.Connection `gorm:"foreignKey:RegistrantId;references:ID" json:"registrant" yaml:"registrant"`
